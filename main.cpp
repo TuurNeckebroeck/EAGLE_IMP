@@ -26,7 +26,7 @@ int main() {
 
         if(original.empty()) break;
 
-        Mat img, hsv, red_mask, line_mask;
+        Mat img, hsv, red_mask;
         img = original.clone();
         cvtColor(img, hsv, cv::COLOR_RGB2HSV);
         inRange(hsv, Scalar(100, 20, 0), Scalar(135, 255, 255), red_mask);
@@ -40,6 +40,17 @@ int main() {
             if(!containsSimilarLine(nonSimilarLines, allLines[i])){
                 nonSimilarLines.push_back(allLines[i]);
             }
+
+            // ILLUSTRATIEF VOOR OP EXTRA SCHERM: TOONT ALLE GEDETECTEERDE LIJNEN
+            float rho = allLines[i][0], theta = allLines[i][1];
+            Point pt1, pt2;
+            double a = cos(theta), b = sin(theta);
+            double x0 = a * rho, y0 = b * rho;
+            pt1.x = cvRound(x0 + 1000 * (-b));
+            pt1.y = cvRound(y0 + 1000 * (a));
+            pt2.x = cvRound(x0 - 1000 * (-b));
+            pt2.y = cvRound(y0 - 1000 * (a));
+            line(img, pt1, pt2, Scalar(0, 0, 200), 1, LINE_AA);
         }
 
 #ifdef DEBUG
