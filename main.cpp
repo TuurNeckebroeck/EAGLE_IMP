@@ -90,7 +90,7 @@ int main() {
 
         }
 
-        if (waitKey(20) >= 0) break;
+        if (waitKey(40) >= 0) break;
     }
 
 

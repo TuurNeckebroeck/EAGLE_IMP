@@ -1,6 +1,8 @@
 # EAGLE_IMP
 Persoonlijke repository voor IMP (image processing) van het P&amp;O project EAGLE 1
 
+![alt text](readme_sources/sample.png "Detectie van rode kleur, lijnen en filtering")
+
 ## Features
 * Herkenning van rode kleur in het raster
 * Herkenning van rode lijnen in het raster
