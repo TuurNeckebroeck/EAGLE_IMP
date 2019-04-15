@@ -10,6 +10,9 @@
 using namespace std;
 using namespace cv;
 
+int impLineDetection();
+int impCornerDetection();
+
 bool containsSimilarLine(vector<Vec2f>&, Vec2f&);
 void getCornerPoints(vector<Point>& cornerPoints, Vec2f& relativePos, vector<Vec2f>& lines);
 #endif //IMP_TUUR_MAIN_H
