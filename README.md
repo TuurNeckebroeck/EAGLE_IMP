@@ -1,5 +1,12 @@
 # EAGLE_IMP
-Persoonlijke repository voor IMP (image processing) van het P&amp;O project EAGLE 1
+Persoonlijke repository voor IMP (image processing) van het P&amp;O project EAGLE (3e bachelor ir.)
+
+## Beknopte beschrijving opdracht
+Locatie en oriëntatiebepaling van de drone op basis van camerabeelden van de ondergrond.
+Op de (donkere) ondergrond is een raster met rode lijnen aangebracht. Sommige vakken van het raster bevatten een QR-code,
+die de geëncrypteerde instructies bevatten (bv. beweeg naar het vak (2,3), m.a.w. de coördinaten van het vak met de volgende QR-code en dus de volgende instructie).
+Het IMP deel beslaat enkel de locatiebepaling en detectie van de QR-code, niet de decodering van de QR-code en de decryptie van de instructie.
+
 
 ![alt text](readme_sources/sample.png "Detectie van rode kleur, lijnen en filtering")
 
