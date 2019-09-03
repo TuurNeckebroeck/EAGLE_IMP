@@ -1,5 +1,6 @@
 # EAGLE_IMP
 Persoonlijke repository voor IMP (image processing) van het P&amp;O project EAGLE (3e bachelor burgerlijk ingenieur elektrotechniek).
+Opmerking: deze code is experimenteel, niet gedocumenteerd en niet definitief.
 
 ## Beknopte beschrijving opdracht
 Locatie en oriëntatiebepaling van de drone op basis van camerabeelden van de ondergrond.
