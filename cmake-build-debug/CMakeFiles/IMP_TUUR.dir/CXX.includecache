@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/tuur/CLionProjects/IMP_TUUR/main.cpp
+/home/tuur/CLionProjects/IMP_TUUR/EAGLE_IMP/main.cpp
 iostream
 -
 opencv2/opencv.hpp
@@ -18,9 +18,9 @@ string
 chrono
 -
 main.h
-/home/tuur/CLionProjects/IMP_TUUR/main.h
+/home/tuur/CLionProjects/IMP_TUUR/EAGLE_IMP/main.h
 
-/home/tuur/CLionProjects/IMP_TUUR/main.h
+/home/tuur/CLionProjects/IMP_TUUR/EAGLE_IMP/main.h
 opencv2/opencv.hpp
 -
 

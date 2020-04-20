@@ -130,18 +130,18 @@ int impLineDetection(){
             }
 
             // ILLUSTRATIEF VOOR OP EXTRA SCHERM: TOONT ALLE GEDETECTEERDE LIJNEN
-            /*
-            float rho = allLines[i][0], theta = allLines[i][1];
-            Point pt1, pt2;
-            double a = cos(theta), b = sin(theta);
-            double x0 = a * rho, y0 = b * rho;
-            //circle(img, Point(x0,y0), 10, Scalar(255,0,0), 3, LINE_AA);
-            pt1.x = cvRound(x0 + 1000 * (-b));
-            pt1.y = cvRound(y0 + 1000 * (a));
-            pt2.x = cvRound(x0 - 1000 * (-b));
-            pt2.y = cvRound(y0 - 1000 * (a));
-            line(img, pt1, pt2, Scalar(0, 0, 200), 1, LINE_AA);
-            */
+
+//            float rho = allLines[i][0], theta = allLines[i][1];
+//            Point pt1, pt2;
+//            double a = cos(theta), b = sin(theta);
+//            double x0 = a * rho, y0 = b * rho;
+//            //circle(img, Point(x0,y0), 10, Scalar(255,0,0), 3, LINE_AA);
+//            pt1.x = cvRound(x0 + 1000 * (-b));
+//            pt1.y = cvRound(y0 + 1000 * (a));
+//            pt2.x = cvRound(x0 - 1000 * (-b));
+//            pt2.y = cvRound(y0 - 1000 * (a));
+//            line(img, pt1, pt2, Scalar(0, 0, 200), 1, LINE_AA);
+
         }
 
 #ifdef DEBUG
@@ -166,7 +166,7 @@ int impLineDetection(){
 
         // HOEKDETECTIE
 
-        //circle(img, Point(0,0), 10, Scalar(0,0,255), 3, LINE_AA);
+//        circle(img, Point(0,0), 10, Scalar(0,0,255), 3, LINE_AA);
         vector<Point> corners;
         Vec2f relativePos;
         getCornerPoints(corners, relativePos, nonSimilarLines);

@@ -15,7 +15,8 @@ Voor de beeldverwerking wordt gebruik gemaakt van OpenCV in C++.
 * Filtering van gelijkaardige lijnen: per lijn van het raster wordt slechts 1 lijn daadwerkelijk herkend
 * Herkenning van de hoeken
 
-![alt text](readme_sources/sample.png "Detectie van rode kleur, lijnen en filtering")
+<!-- ![alt text](readme_sources/sample.png "Detectie van rode kleur, lijnen en filtering") -->
+![alt text](readme_sources/illustratie.gif "Detectie van rode kleur, lijnen en filtering")
 
 ## TODO
 * [ ] Lijndetectie herschrijven met probabilistic hough tranform
